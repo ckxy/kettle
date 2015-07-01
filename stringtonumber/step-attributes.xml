@@ -1,0 +1,23 @@
+<attributes>  
+
+  <!-- Top level attributes -->
+  <attribute id="FILENAME"> <xmlcode>filename</xmlcode> <repcode/> <description>StringToNumberDialog.Filename.Label</description> <tooltip/> <valuetype>String</valuetype> <parentid/> </attribute>
+  <attribute id="FILENAME_FIELD"> <xmlcode>filename_field</xmlcode> <repcode></repcode> <description>StringToNumberDialog.FilenameField.Label</description> <tooltip/> <valuetype>String</valuetype> <parentid/></attribute>
+  
+  <!-- The fields grid defining all CSV Input fields -->
+  <attribute id="FIELDS"> <xmlcode>fields</xmlcode>  <repcode/> <description>StringToNumberDialog.Fields.Label</description> <tooltip/> ValueMetaInterface.TYPE_NONE <parentid/> </attribute>
+
+  <!-- The definition of a single CSV input field -->
+  <attribute id="FIELD"> <xmlcode>field</xmlcode>  <repcode/> <description>StringToNumberDialog.Field.Label</description> <tooltip/> ValueMetaInterface.TYPE_NONE <parentid>FIELDS</parentid> </attribute>
+
+  <attribute id="FIELD_NAME"> <xmlcode>name</xmlcode>  <repcode>field_name</repcode> <description>StringToNumberDialog.NameColumn.Column</description> <tooltip/> <valuetype>String</valuetype> <parentid>FIELD</parentid> </attribute>
+  <attribute id="FIELD_TYPE"> <xmlcode>type</xmlcode>  <repcode>field_type</repcode> <description>StringToNumberDialog.TypeColumn.Column</description> <tooltip/> <valuetype>String</valuetype> <parentid>FIELD</parentid> </attribute>
+  <attribute id="FIELD_FORMAT"> <xmlcode>format</xmlcode>  <repcode>field_format</repcode> <description>StringToNumberDialog.FormatColumn.Column</description> <tooltip/> <valuetype>String</valuetype> <parentid>FIELD</parentid> </attribute>
+  <attribute id="FIELD_LENGTH"> <xmlcode>length</xmlcode>  <repcode>field_length</repcode> <description>StringToNumberDialog.LengthColumn.Column</description> <tooltip/> <valuetype>String</valuetype> <parentid>FIELD</parentid> </attribute>
+  <attribute id="FIELD_PRECISION"> <xmlcode>precision</xmlcode>  <repcode>field_precision</repcode> <description>StringToNumberDialog.PrecisionColumn.Column</description> <tooltip/> <valuetype>String</valuetype> <parentid>FIELD</parentid> </attribute>
+  <attribute id="FIELD_CURRENCY"> <xmlcode>currency</xmlcode>  <repcode>field_currency</repcode> <description>StringToNumberDialog.CurrencyColumn.Column</description> <tooltip/> <valuetype>String</valuetype> <parentid>FIELD</parentid> </attribute>
+  <attribute id="FIELD_DECIMAL"> <xmlcode>decimal</xmlcode>  <repcode>field_decimal</repcode> <description>StringToNumberDialog.DecimalColumn.Column</description> <tooltip/> <valuetype>String</valuetype> <parentid>FIELD</parentid> </attribute>
+  <attribute id="FIELD_GROUP"> <xmlcode>group</xmlcode>  <repcode>field_group</repcode> <description>StringToNumberDialog.GroupColumn.Column</description> <tooltip/> <valuetype>String</valuetype> <parentid>FIELD</parentid> </attribute>
+  <attribute id="FIELD_TRIM_TYPE"> <xmlcode>trim_type</xmlcode>  <repcode>field_trim_type</repcode> <description>StringToNumberDialog.TrimTypeColumn.Column</description> <tooltip/> <valuetype>String</valuetype> <parentid>FIELD</parentid> </attribute>
+  
+</attributes>
