@@ -1,0 +1,6 @@
+﻿<step id="StringToNumber">
+ 	<description>i18n:org.pentaho.di.trans.step:BaseStep.Test.StringToNumber</description>
+ 	<classname>org.pentaho.di.trans.steps.stringtonumber.StringToNumberMeta</classname>
+ 	<category>i18n:org.pentaho.di.trans.step:BaseStep.Category.Test</category>
+ 	<tooltip>i18n:org.pentaho.di.trans.step:BaseStep.TypeTooltipDesc.StringToNumber</tooltip>
+ 	<iconfile>ui/images/TIP.png</iconfile></step>
